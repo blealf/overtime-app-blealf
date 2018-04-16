@@ -33,6 +33,8 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Devise authentication
+gem 'devise', '~> 4.4', '>= 4.4.3'
 
 group :development, :test do
   gem 'byebug'
